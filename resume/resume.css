@@ -1,0 +1,88 @@
+/*
+---------------------------------------------------------------------------------
+	SAMPLE RESUME TEMPLATE
+    html resume / sampleresumetemplate.net
+
+    v0.9: 5/28/09
+    design and code by: thingsthatarebrown.com 
+                        (matt brown)
+---------------------------------------------------------------------------------
+*/
+
+
+/* //-- yui-grids style overrides -- */
+body { font-family: sans-serif; color: #444; }
+#inner {  margin: 80px auto; height: 100%; display: flex; background: white; border: 1px solid rgb(236, 232, 232); box-shadow: 0 3px 6px rgba(0,0,0,0.5);  }
+.yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
+
+
+/* for left nav */
+.left_nav{
+    background:  #002266de;
+    color: white;
+    width: 300px;
+}
+.top_content{
+    padding: 10px;
+    line-height: 20px;
+}
+.top_content h1{
+    font-size: 20px;
+}
+.personal_info h2,.skills h2,.links h2,.hobby h2{
+    background-color: rgba(58, 57, 57, 0.562);
+    padding: 10px;
+}
+.person_contact,.skill_content,.link_content,.hobby_content{
+    padding:5px 20px;
+    line-height: 20px;
+}
+.link_content ul li,.hobby_content ul li{
+    list-style-type: circle;
+}
+.person_contact p,.skill_content p{
+    color: rgba(248, 245, 245, 0.925);
+}
+
+
+/* for body content */
+.body_content{
+    padding: 10px;
+}
+.carrer_obj h2,.education h2,.experience h2,.achive h2{
+    width: 100%;
+    padding:10px 0;
+    font-weight: bold;
+    border-top: 1px solid rgba(190, 189, 189, 0.836);
+    border-bottom:1px solid rgba(190, 189, 189, 0.822);
+}
+.carrer_content,.education_content,.experience_content,.achive_content{
+    padding:10px 30px;
+}
+.education_content span,.experience_content span,.achive_content span{
+    font-weight: bold;
+}
+.education{
+    margin-top: 10px;
+}
+.education_content ul li{
+    list-style-type: none;
+    line-height: 20px;
+}
+.experience_content ul li{
+    list-style-type: none;
+    line-height: 20px;
+}
+.achive_content ul li{
+    line-height: 20px;
+}
+
+
+
+
+
+
+.yui-gf .yui-u{width:80.2%;}
+.yui-gf div.first{width:12.3%;}
+
+
